@@ -20,7 +20,7 @@
 // print the grid
 void print(int puzzle[]);
 
-// input from stdin
+// input from file
 void scan(int puzzle[], FILE *f);
 
 ////////////////////////////////////////////////////////////////
@@ -198,7 +198,7 @@ void print(int puzzle[]) {
     printf(" -------------------------\n");
 }
 
-// Read from stdin
+// Read from file
 void scan(int puzzle[], FILE *f) {
     // Our 9x9 grid allows value from 1 to 9
     // So char is safe here!
